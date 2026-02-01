@@ -9,6 +9,7 @@ public class Gare {
     private String region;
 
 
+
     public Gare(String id, String nom, String ville, int nombreQuais) {
         this.id = id;
         this.nom = nom;
