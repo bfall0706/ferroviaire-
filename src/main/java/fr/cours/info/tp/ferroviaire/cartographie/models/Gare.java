@@ -5,6 +5,9 @@ public class Gare {
     private String nom;
     private String ville;
     private int nombreQuais;
+    private boolean accessible;
+    private String region;
+
 
     public Gare(String id, String nom, String ville, int nombreQuais) {
         this.id = id;
